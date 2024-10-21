@@ -12,7 +12,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy app source
-COPY docker-app-exercise .
+COPY simple-node .
 
 # Bind the port that the image will run on
 EXPOSE 8080
